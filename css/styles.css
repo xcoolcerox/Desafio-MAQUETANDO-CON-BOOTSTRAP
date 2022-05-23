@@ -1,0 +1,421 @@
+.body-content{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+body{
+    font-family: "Montserrat" , sans-serif;
+    background-image: url(https://www.xtrafondos.com/wallpapers/resized/estrellas-en-la-galaxia-4110.jpg?s=large);
+}
+.copyright{
+    color: white;
+    font-size: 11px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-between;
+}
+
+.carousel-left{
+    position: absolute;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 1px 2px rgb(0, 0, 0 / 60%);
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    background-image: linear-gradient(to left, rgb(140, 209, 233, 0) rgb(140, 209, 233, 1));
+}
+
+.carousel-right{
+    position: absolute;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: auto;
+    width: 15%;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 1px 2px rgb(0, 0, 0 / 60%);
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    background-image: linear-gradient(to right, rgb(140, 209, 233, 0) rgb(140, 209, 233, 1));
+}
+
+.my-image{
+    transform: rotate(-180deg);
+}
+
+.wrap-map{
+    max-width: 700px;
+    border: 2px solid rgb(68, 7, 148);
+}
+
+.google-map{
+    width: 100%;
+}
+
+/* PRODUCTOS */
+
+.pricing-table {
+    margin: 0px;
+    background: #fff;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-table i {
+    width: 30px;
+    color: #c2c2c2;
+    display: inline-block;
+    margin-right: 10px;
+    padding-right: 5px;
+    border-right: 1px solid #ececec;
+}
+
+.pricing-table1 {
+    margin: 0px;
+    background: #021E69;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-table1 i {
+    width: 30px;
+    color: #c2c2c2;
+    display: inline-block;
+    margin-right: 10px;
+    padding-right: 5px;
+    border-right: 1px solid #ececec;
+}
+
+.pricing-table .btn-dark {
+    padding: 10px 24px;
+    font-size: 15px;
+}
+
+.pricing-table strong {
+    font-weight: 600;
+    margin-right: 6px;
+    color: #1f1f1f;
+}
+
+.pricing-table-header {
+    padding: 30px 0 25px 0;
+    background: #eef0f3c2;
+    text-align: center;
+}
+
+.pricing-table-header h2 {
+    font-size: 31px;
+    margin: 0;
+    padding: 0;
+    font-weight: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.pricing-table-header h3 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #aaaaaa;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+
+
+.pricing-table-header1 {
+    padding: 30px 0 25px 0;
+    background: #ffffff;
+}
+
+.pricing-table-header1 h2 {
+    font-size: 31px;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+
+.pricing-table-header1 p {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    color: white;
+    display: inline-block;
+}
+
+.pricing-table-header1 h3 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #aaaaaa;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+
+.pricing-table-space {
+    height: 10px;
+}
+
+.pricing-table-text {
+    margin: 15px 30px 0 30px;
+    padding: 0 10px 15px 10px;
+    border-bottom: 1px solid #ececec;
+    font-weight: 300;
+    line-height: 30px;
+    color: #c2c2c2;
+    font-size: 16px;
+}
+
+.pricing-table-text p {
+    font-weight: 400;
+}
+
+.pricing-table-features {
+    margin: 15px 30px 0 30px;
+    padding: 0 10px 15px 30px;
+    border-bottom: 1px solid #ececec;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    color: #c2c2c2;
+}
+
+.pricing-table-highlighted h3,
+.pricing-table-highlighted h2 {
+    color: #333 !important;
+}
+
+.pricing-table-sign-up {
+    margin-top: 25px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+
+.pricing-table-sign-up a {
+    position: relative;
+    padding: 13px 40px;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.pricing-table-sign-up a,
+.pricing-table-sign-up a.hover-btn-new::after {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.pricing-table-sign-up a.hover-btn-new::before,
+.pricing-table-sign-up a.hover-btn-new::after {
+    background: #c3e3f3;
+    content: '';
+    text-decoration: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.pricing-table-sign-up a.hover-btn-new:hover span {
+    color: #333333;
+}
+
+.pricing-table-sign-up a.hover-btn-new::before {
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.pricing-table-sign-up a.hover-btn-new::after {
+    background: #104173 !important;
+    text-decoration: none;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.pricing-table-sign-up a.hover-btn-new span {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+}
+
+.pricing-table-sign-up a.hover-btn-new:hover:after {
+    height: 0;
+    left: 50%;
+    top: 50%;
+    width: 0;
+}
+
+
+.pricing-table-sign-up a,
+.pricing-table-sign-up a.hover-btn-new1::after {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.pricing-table-sign-up a.hover-btn-new1::before,
+.pricing-table-sign-up a.hover-btn-new1::after {
+    background: #f9862d;
+    content: '';
+    position: absolute;
+    z-index: 1;
+}
+
+.pricing-table-sign-up a.hover-btn-new1:hover span {
+    color: #fff;
+}
+
+.pricing-table-sign-up a.hover-btn-new1::before {
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.pricing-table-sign-up a.hover-btn-new1::after {
+    background: #ffffff !important;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.pricing-table-sign-up a.hover-btn-new1 span {
+    position: relative;
+    z-index: 2;
+    color: #333;
+}
+
+.pricing-table-sign-up a.hover-btn-new1:hover:after {
+    height: 0;
+    left: 50%;
+    top: 50%;
+    width: 0;
+}
+
+
+
+.pricing-table:hover {
+    transform: scale(1.05, 1.06);
+    -webkit-transform: scale(1.05, 1.06);
+    -moz-transform: scale(1.05, 1.06);
+    -o-transform: scale(1.05, 1.06);
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+}
+
+/* Highlighted table */
+
+.pricing-table-highlighted {
+    margin-top: 0;
+}
+
+/* banner text 1 */
+
+.banner-text1{
+    background-image: url(https://images.pexels.com/photos/3601453/pexels-photo-3601453.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0 30px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    text-align: center;
+    color: #fff;
+}
+
+.banner-text1 h3{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.banner-text1 span{
+    color: rgb(255, 238, 0);
+}
+
+.banner-text1 h2{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.button1-1{
+    margin-right: 40px;
+    padding: 10px 30px;
+    background-color: rgb(68, 7, 148);
+    color: #fff;
+    border-radius: 5px;
+}
+
+.button1-1:hover{
+    background-color: #fff;
+    color: rgb(68, 7, 148);
+    transition: .5s;
+}
+
+/* banner text 2 */
+
+.banner-text2{
+    background-image: url(https://images.pexels.com/photos/1025469/pexels-photo-1025469.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0 30px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    text-align: center;
+    color: #fff;
+}
+
+.banner-text2 h3{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.banner-text2 span{
+    color: rgb(0, 255, 255);
+}
+
+.banner-text2 h2{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.button1-3{
+    margin-right: 40px;
+    padding: 10px 30px;
+    background-color: rgb(68, 7, 148);
+    color: #fff;
+    border-radius: 5px;
+}
+
+.button1-3:hover{
+    background-color: #fff;
+    color: rgb(68, 7, 148);
+    transition: .5s;
+}

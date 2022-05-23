@@ -1,0 +1,63 @@
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.copyright {
+    color: aliceblue;
+        font-size: 11px;
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.carouselRight {
+    position: absolute;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: auto;
+    width: 15%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    background-image: linear-gradient(to right, rgb(140, 209, 233, 0), rgb(140, 209, 233, 1));
+}
+
+.carouselLeft {
+    position: absolute;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    background-image: linear-gradient(to left, rgb(140, 209, 233, 0), rgb(140, 209, 233, 1));
+}
+
+.myImage {
+    transform: rotate(-180deg);
+}
